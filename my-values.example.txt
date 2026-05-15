@@ -1,0 +1,35 @@
+# Copy this file to "my-values.txt" and fill in your real values.
+# my-values.txt is gitignored and will never be committed.
+#
+# Use this file as a reference while following SETUP.md.
+
+# ============================================================
+# ntfy
+# ============================================================
+
+# Your private ntfy topic. Make it long and random.
+# Anyone who knows this string can read your alerts AND send fake alerts to your phone.
+# Treat it like a password.
+NTFY_TOPIC=YOUR_LONG_RANDOM_TOPIC_HERE
+
+# ============================================================
+# Tailscale
+# ============================================================
+
+# Tailscale IP of the REMOTE router (the one being monitored)
+# Find this by SSHing to the remote router and running: tailscale ip -4
+REMOTE_TAILSCALE_IP=100.x.x.x
+
+# Tailscale hostnames (used for SSH access)
+REMOTE_HOSTNAME=cabin-router
+HOME_HOSTNAME=home-router
+
+# ============================================================
+# Friendly Names (used in notification messages)
+# ============================================================
+
+# Where the remote router lives. Examples: Cabin, RV, Office, Mom's House
+REMOTE_LOCATION=Cabin
+
+# The ISP / connection type at the remote site. Examples: Starlink, T-Mobile Home, Verizon 5G
+REMOTE_WAN_NAME=Starlink

@@ -1,0 +1,21 @@
+# Personal values, never commit
+my-values.txt
+
+# Common secret/env file patterns
+*.local
+.env
+.env.local
+.env.*.local
+secrets.txt
+secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
